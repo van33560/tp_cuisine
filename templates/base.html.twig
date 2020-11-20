@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        <title>{% block title %} {% endblock %}</title>
+
+    </head>
+    <body>
+        <header>
+            <div class ="row">
+                <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="img"/>
+                <ul>
+                    <li>Accueil</li>
+                    <li>lien1</li>
+                    <li>lien2</li>
+                    <li>lien3</li>
+
+                </ul>
+            </div>
+
+         </header>
+
+            {% block main %}{% endblock %}
+        <img src="{{ asset('assets/img/paper.jpg') }}" alt="logo" class="im"/>
+        <footer>
+            <div class="row1">
+                 <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="image"/>
+             </div>
+         </footer>
+    </body>
+</html>

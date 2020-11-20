@@ -1,0 +1,21 @@
+{% extends'base.html.twig' %}
+
+
+{% block main %}
+    <main>
+
+        {# ma boucle for permet de passer sur chaque elements de mon tableau #}
+        {% for article in articles %}
+            {# ma condition me permet d'afficher que les agents publiés #}
+            {% if article.published %}
+                {# pour afficher le contenu de mon tableau  #}
+
+                <div class="article">
+                    <p>
+                    <h2> {{ article.title}}  {{'id':article.id  }}</h2>
+                    </p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </main>
+{% endblock %}
