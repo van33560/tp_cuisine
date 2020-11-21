@@ -1,21 +1,17 @@
 {% extends'base.html.twig' %}
 
-
 {% block main %}
     <main>
-
-        {# ma boucle for permet de passer sur chaque elements de mon tableau #}
-        {% for article in articles %}
-            {# ma condition me permet d'afficher que les agents publiés #}
-            {% if article.published %}
-                {# pour afficher le contenu de mon tableau  #}
-
-                <div class="article">
-                    <p>
-                    <h2> {{ article.title}}  {{'id':article.id  }}</h2>
-                    </p>
-                </div>
-            {% endif %}
-        {% endfor %}
+        {# ma deuxieme page avec une boucle for je passer sur chaque elements de mon tableau j'affiche mes images et mes titres#}
+        <div class="container">
+                   {% for article in articles %}
+                        <article class="article">
+                            <div class="content">
+                                <img src="{{ article.image }}" alt="image" class="resp"/>
+                            </div>
+                            <h2>{{ article.title }}</h2>
+                        </article>
+                   {% endfor %}
+        </div>
     </main>
-{% endblock %}
+{% endblock main %}

@@ -3,19 +3,19 @@
 namespace App\Controller;
 
 
-    use Symfony\Component\Routing\Annotation\Route;
-    use Symfony\Component\HttpFoundation\Response;
-    use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 
-class pagesCuisineController extends AbstractController
+class dernierePageController extends AbstractController
 //je crée une nouvelle route pour recuperer id
 {
     /**
-     * @Route("/article/{id}", name="articleShow")
+     * @Route("/dernierePage/{id}", name="pageShow")
      */
 // je crée une nouvelle méthode qui va permettre de récupérer le contenu de chaque id
-    public function articleShow($id)
+    public function pageShow($id)
     {
 
         $articles = [
@@ -52,7 +52,7 @@ class pagesCuisineController extends AbstractController
         ];
         $article = $articles[$id];
         //je renvoi sur ma page twig les infos de mon tableau par id
-        return $this->render('article.html.twig', [
+        return $this->render('dernierePage.html.twig', [
             'article' => $article
 
         ]);
@@ -61,7 +61,7 @@ class pagesCuisineController extends AbstractController
 
 
     /**
-     * @Route("/articles", name="articles")
+     * @Route("/dernierePages", name="dernierePages")
      */
 
     public function tableauArticles()
@@ -98,14 +98,13 @@ class pagesCuisineController extends AbstractController
                 "content" => "Le réseau de transport d’électricité assure disposer de leviers pour éviter des coupures, mais appelle chacun à adopter des gestes d’économies d’énergie.",
                 "image" => "https://img.lemde.fr/2020/11/19/0/0/5184/3456/688/0/60/0/05ce9ea_162988352-000-1uw2ar.jpg"
             ],
-        ];;
+        ];
 
 
         //recupere les infos des agents
-        return $this->render('articles.html.twig', [
+        return $this->render('dernierePage.html.twig', [
             'articles' => $articles
         ]);
         //agents renvoi le contenu du tableau a la page twig
     }
 }
-

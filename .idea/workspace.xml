@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf3712fc-a540-46ca-a282-e795ae236d70" name="Default Changelist" comment="" />
+    <list default="true" id="bf3712fc-a540-46ca-a282-e795ae236d70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/pagesCuisineController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/pagesCuisineController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/articles.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/articles.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +17,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,6 +126,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kVstGDb71vUJX1tJm56WxCQ6yF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,6 +141,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -142,6 +154,8 @@
       <updated>1605797305684</updated>
       <workItem from="1605797306944" duration="7496000" />
       <workItem from="1605812713076" duration="8121000" />
+      <workItem from="1605859719665" duration="21220000" />
+      <workItem from="1605952230658" duration="12149000" />
     </task>
     <servers />
   </component>
@@ -149,17 +163,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="472" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605797620748">
+    <state x="354" y="135" key="#Inspections" timestamp="1605966916869">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="472" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605797620748" />
+    <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1605966916869" />
+    <state x="472" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605862227123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="472" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1605862227123" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605880339672">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1605880339672" />
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605801779981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1605801779981" />
-    <state x="457" y="183" key="NewPhpClassDialog" timestamp="1605801755947">
+    <state x="482" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605880320626">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="457" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605801755947" />
+    <state x="482" y="316" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1605880320626" />
+    <state x="457" y="183" key="NewPhpClassDialog" timestamp="1605865309815">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="457" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1605865309815" />
+    <state x="427" y="39" width="586" height="822" key="find.popup" timestamp="1605879810913">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="39" width="586" height="822" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605879810913" />
   </component>
 </project>

@@ -1,0 +1,18 @@
+{% extends'base.html.twig' %}
+
+  {% block img %}
+      <header>
+         <div class="i">
+            <img src="{{ asset('assets/img/desk.jpg') }}" alt="logo" class="resp"/>
+         </div>
+      </header>
+  {% endblock img %}
+
+    {% block section %}
+        {#  j'affiche mon texte#}
+        <section>
+            {% for article in articles%}
+            <p>{{ article.content}} </p>
+            {% endfor %}
+        </section>
+    {% endblock section %}

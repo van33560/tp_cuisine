@@ -1,10 +1,13 @@
 {% extends'base.html.twig' %}
 
-{% block main %}
-        <main>
-
+    {% block main %}
+        {# premiere page ou j'affiche mon titre et mon image#}
+          <main>
                 <h1>{{ article.title}} </h1>
-
-
-        </main>
-{% endblock main %}
+          </main>
+    {% endblock main %}
+    {% block img %}
+        <div class="im">
+            <img src="{{ asset('assets/img/desk.jpg') }}" alt="logo" class="im"/>
+        </div>
+    {% endblock img %}

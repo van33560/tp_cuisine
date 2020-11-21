@@ -4,29 +4,37 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
         <title>{% block title %} {% endblock %}</title>
-
     </head>
     <body>
         <header>
             <div class ="row">
-                <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="img"/>
-                <ul>
-                    <li>Accueil</li>
-                    <li>lien1</li>
-                    <li>lien2</li>
-                    <li>lien3</li>
-
-                </ul>
+                <div class="img">
+                    {# la fonction asset permet de recuperer dans un autre dossier son contenu ici dossier img  #}
+                   <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="resp"/>
+                </div>
+                <nav>
+                    <ul>
+                        {# path sert a redefinir une route pour les liens {{ path("articleShow") }} #}
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">lien1</a></li>
+                        <li><a href="#">lien2</a></li>
+                        <li><a href="#">lien3</a></li>
+                    </ul>
+                </nav>
             </div>
-
-         </header>
-
-            {% block main %}{% endblock %}
-        <img src="{{ asset('assets/img/paper.jpg') }}" alt="logo" class="im"/>
-        <footer>
-            <div class="row1">
-                 <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="image"/>
-             </div>
+            {# les blocks  permettent  de rappeler le contenu d'un autre ficher twig dans une partie d'un autre fichier  #}
+            {% block main %}{% endblock main%}
+            {% block img %} {% endblock img%}
+            {% block section %}{% endblock section%}
+        </header>
+         <footer>
+            <div class="row">
+                <div class="image">
+                    {# la fonction asset permet de recuperer dans un autre dossier son contenu ici dossier img  #}
+                <img src="{{ asset('assets/img/newspaper.png') }}" alt="logo" class="resp"/>
+                </div>
+            </div>
          </footer>
     </body>
 </html>
+{# le fichier base contient ma structure html qui servira pour les autres fichier  #}
