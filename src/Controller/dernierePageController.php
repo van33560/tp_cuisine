@@ -108,3 +108,28 @@ class dernierePageController extends AbstractController
         //agents renvoi le contenu du tableau a la page twig
     }
 }
+/**
+ * @route("/tableaux" name="mesTableaux")
+ *
+ */
+/**public function mesTableaux( ){ essaie d'une fonction pour regrouper les tableaux
+    $articleBis = new $articleBis();
+
+    $articles= $articleBis->$articles();
+    return $this-> render ( 'articleBis.html.twig');
+/**
+ * @route("/tableau/{id}" name="Tableaux")
+ *
+ */
+/**public function mesTableaux( $id){ essaie d'une fonction pour regrouper les tableaux
+$articleBis = new $articleBis();
+$article= $articleBis->$article();
+ *
+ * $article = $ articles[$id];
+ *
+ *
+return $this-> render ( 'articleBis.html.twig'[ le chemin ''doit dependre du nom de la page twig
+ *  'article' = $articles
+ *
+ * ]);
+ */
